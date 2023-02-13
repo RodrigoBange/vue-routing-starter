@@ -44,7 +44,7 @@ export default {
   methods: {
       addProduct() {
           // navigate to products here
-
+          this.$router.push('/products')
       }
   }
 };
